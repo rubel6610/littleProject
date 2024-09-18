@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    background-color: rgb(71, 158, 110);
+    color:white;
+    text-align: center;
+    
+}
+.imgbox{
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.imgbox .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Responsive Photo Gallery</h1>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300" alt="Image 1" onclick="openimg(this)">
+    <img src="https://via.placeholder.com/300" alt="Image 2" onclick="openimg(this)">
+    <img src="https://via.placeholder.com/300" alt="Image 3" onclick="openimg(this)">
+    <img src="https://via.placeholder.com/300" alt="Image 4" onclick="openimg(this)">
+    <img src="https://via.placeholder.com/300" alt="Image 5" onclick="openimg(this)">
+    <img src="https://via.placeholder.com/300" alt="Image 6" onclick="openimg(this)">
+    <img src="https://via.placeholder.com/300" alt="Image 7" onclick="openimg(this)">
+    
+  </div>
+
+  <div id="imgbox" class="imgbox">
+    <span class="closebtn" onclick="closeimgbox()">&times;</span>
+    <img id="boxImg" src="">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
